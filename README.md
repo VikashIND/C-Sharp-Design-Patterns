@@ -1,16 +1,74 @@
-# MediatorR.Demo
+## Getting Started
+# .NET 8 Design Patterns and CQRS Demo Projects
 
-A simple ASP.NET Core Web API demo project using MediatR and Entity Framework Core (In-Memory) to demonstrate the CQRS (Command Query Responsibility Segregation) pattern.
+This repository contains multiple demo projects illustrating common design patterns and architectural approaches in .NET 8, including the Simple Factory Pattern and the CQRS pattern with MediatR.
 
-## Features
+---
 
+## Projects
+
+### 1. MediatorR.Demo
+
+A simple ASP.NET Core Web API project demonstrating the CQRS (Command Query Responsibility Segregation) pattern using MediatR and Entity Framework Core (In-Memory).
+
+**Key Features:**
 - ASP.NET Core 8 Web API
-- MediatR for CQRS pattern and request/response handling
-- Entity Framework Core with In-Memory database for easy testing and demo purposes
-- Swagger/OpenAPI support for API documentation
+- MediatR for request/response and handler separation
+- CQRS pattern for clean separation of queries and commands
+- Entity Framework Core with In-Memory database for easy testing
+- Swagger/OpenAPI for API documentation
 - Example CRUD operations for a `Contact` entity
 
-## Getting Started
+**Getting Started:**
+- Navigate to the `MediatorR.Demo` folder for project-specific instructions and code.
+
+---
+
+### 2. SimpleFactoryPattern.Demo
+
+A console application demonstrating the Simple Factory Pattern for creating different types of notifications (Email, SMS, Push).
+
+**Key Features:**
+- .NET 8 Console Application
+- Demonstrates the Simple Factory Pattern
+- Easily extendable to support new notification types
+- Interactive console interface for sending notifications
+
+**How it works:**
+- The user is prompted to enter a notification type (`email`, `sms`, or `push`).
+- The factory creates the appropriate notification object and sends a message.
+
+**Getting Started:**
+- Navigate to the `SimpleFactoryPattern.Demo` folder for project-specific instructions and code.
+
+---
+
+## Repository Structure
+
+<pre>
+C Shart Design Patterns
+|   ├── MediatorR.Demo
+│   ├── Controllers
+│   ├── Features
+│   │   └── Contacts
+│   │       └── Queries
+│   │           └── Get
+│   ├── CQRS
+│   ├── AppDbContext.cs
+│   ├── Contact.cs
+│   ├── Program.cs
+│   └── ...
+├── SimpleFactoryPattern.Demo
+│   ├── Program.cs
+│   ├── INotification.cs
+│   ├── EmailNotification.cs
+│   ├── SmsNotification.cs
+│   ├── PushNotification.cs
+│   ├── NotificationFactory.cs
+│   └── ...
+└── README.md
+</pre>
+
 
 ### Prerequisites
 
