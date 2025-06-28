@@ -1,15 +1,3 @@
-# MediatorR.Demo
-
-A simple ASP.NET Core Web API demo project using MediatR and Entity Framework Core (In-Memory) to demonstrate the CQRS (Command Query Responsibility Segregation) pattern.
-
-## Features
-
-- ASP.NET Core 8 Web API
-- MediatR for CQRS pattern and request/response handling
-- Entity Framework Core with In-Memory database for easy testing and demo purposes
-- Swagger/OpenAPI support for API documentation
-- Example CRUD operations for a `Contact` entity
-
 ## Getting Started
 
 ### Prerequisites
