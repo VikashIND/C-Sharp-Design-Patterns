@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleFactoryPattern.Demo
+namespace FactoryMethodPattern.Demo
 {
-    internal class PushNotificationCreator: NotificationCreator
+    internal class EmailNotificationCreator: NotificationCreator
     {
         public override INotification CreateNotification()
         {
-            return new PushNotification();
+            return new EmailNotification();
         }
     }
     

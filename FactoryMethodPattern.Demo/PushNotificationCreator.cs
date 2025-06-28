@@ -5,14 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleFactoryPattern.Demo
+namespace FactoryMethodPattern.Demo
 {
-    internal class SmsNotificationCreator: PushNotificationCreator
+    internal class PushNotificationCreator: NotificationCreator
     {
         public override INotification CreateNotification()
         {
-            return new SmsNotification();
+            return new PushNotification();
         }
     }
-   
+    
 }
