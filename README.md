@@ -45,7 +45,27 @@ A console application demonstrating the Simple Factory Pattern for creating diff
 
 ## Repository Structure
 
-. ├── MediatorR.Demo/ │   ├── Controllers/ │   ├── Features/ │   ├── CQRS/ │   ├── AppDbContext.cs │   ├── Contact.cs │   ├── Program.cs │   └── ... (other files) ├── SimpleFactoryPattern.Demo/ │   ├── Program.cs │   ├── INotification.cs │   ├── EmailNotification.cs │   ├── SmsNotification.cs │   ├── PushNotification.cs │   ├── NotificationFactory.cs │   └── ... (other files) └── README.md
+.
+├── MediatorR.Demo
+│   ├── Controllers
+│   ├── Features
+│   │   └── Contacts
+│   │       └── Queries
+│   │           └── Get
+│   ├── CQRS
+│   ├── AppDbContext.cs
+│   ├── Contact.cs
+│   ├── Program.cs
+│   └── ...
+├── SimpleFactoryPattern.Demo
+│   ├── Program.cs
+│   ├── INotification.cs
+│   ├── EmailNotification.cs
+│   ├── SmsNotification.cs
+│   ├── PushNotification.cs
+│   ├── NotificationFactory.cs
+│   └── ...
+└── README.md
 
 ### Prerequisites
 
