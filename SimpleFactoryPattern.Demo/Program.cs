@@ -9,8 +9,8 @@ do
     Console.WriteLine("Enter notification type (email/sms/push):");
     string type = Console.ReadLine();
 
-    INotification notification = NotificationFactory.CreateNotification(type);
-    notification.Send("john@example.com", "Hello from the notification system!");
+    NotificationCreator notification = NotificationCreatorFactory.GetCreator(type);
+    notification.Notify("john@example.com", "Hello from the notification system!");
 
     const string instructions = "Press 'Escape' to exit, or any other key to continue.";
     Console.WriteLine(instructions);
