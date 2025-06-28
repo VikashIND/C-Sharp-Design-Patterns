@@ -45,8 +45,8 @@ A console application demonstrating the Simple Factory Pattern for creating diff
 
 ## Repository Structure
 
-.
-├── MediatorR.Demo
+<pre>
+|   ├── MediatorR.Demo
 │   ├── Controllers
 │   ├── Features
 │   │   └── Contacts
@@ -66,6 +66,8 @@ A console application demonstrating the Simple Factory Pattern for creating diff
 │   ├── NotificationFactory.cs
 │   └── ...
 └── README.md
+</pre>
+
 
 ### Prerequisites
 
