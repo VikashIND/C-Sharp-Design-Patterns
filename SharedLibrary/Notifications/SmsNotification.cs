@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleFactoryPattern.Demo
+namespace SharedLibrary.Notifications
 {
-    public class EmailNotification: INotification
+    public class SmsNotification: INotification
     {
         public void Send(string to, string message)
         {
-            Console.WriteLine($"Sending Email to {to}: {message}");
+            Console.WriteLine($"Sending SMS to {to}: {message}");
         }
     }
-    
+   
 }

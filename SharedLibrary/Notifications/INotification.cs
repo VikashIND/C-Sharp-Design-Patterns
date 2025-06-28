@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleFactoryPattern.Demo
+namespace SharedLibrary.Notifications
 {
     public interface INotification
     {

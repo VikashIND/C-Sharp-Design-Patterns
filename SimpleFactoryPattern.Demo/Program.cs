@@ -1,4 +1,5 @@
-﻿using SimpleFactoryPattern.Demo;
+﻿using SharedLibrary.Notifications;
+using SimpleFactoryPattern.Demo;
 
 do
 {
