@@ -46,7 +46,7 @@ A console application demonstrating the Simple Factory Pattern for creating diff
 ## Repository Structure
 
 <pre>
-.
+C Shart Design Patterns
 |   ├── MediatorR.Demo
 │   ├── Controllers
 │   ├── Features
