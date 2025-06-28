@@ -45,10 +45,8 @@ A console application demonstrating the Simple Factory Pattern for creating diff
 
 ## Repository Structure
 
-/ ├── MediatorR.Demo/ 
-│   └── ... (CQRS Web API project) 
-├── SimpleFactoryPattern.Demo/ 
-│   └── ... (Simple Factory Pattern console app) └── README.md
+. ├── MediatorR.Demo/ │   ├── Controllers/ │   ├── Features/ │   ├── CQRS/ │   ├── AppDbContext.cs │   ├── Contact.cs │   ├── Program.cs │   └── ... (other files) ├── SimpleFactoryPattern.Demo/ │   ├── Program.cs │   ├── INotification.cs │   ├── EmailNotification.cs │   ├── SmsNotification.cs │   ├── PushNotification.cs │   ├── NotificationFactory.cs │   └── ... (other files) └── README.md
+
 ### Prerequisites
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
